@@ -1,0 +1,324 @@
+//Code and Design by Vip.phamquangthinh
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: opens;
+    src: url(../fonts/ops.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../fonts/roboto.ttf);
+}
+
+@font-face {
+    font-family: rock;
+    src: url(../fonts/rock.ttf);
+}
+
+h1 {
+    font-family: rock;
+}
+
+@den : #464646;
+@vang : #f2ebbf;
+@do : #f06060;
+@nau : #5c4b51;
+@xam : #f2f2f2;
+@white : #fff;
+@cam : #f3b562;
+.fonto(@px) {
+    font-family: opens;
+    font-size: @px;
+}
+
+.bovien {
+    border-radius: 6px;
+}
+
+.fontb(@px) {
+    font-family: roboto;
+    font-size: @px;
+}
+
+.fontr(@px) {
+    font-family: rock;
+    font-size: @px;
+}
+
+@media (max-width: 991px) {
+    body {
+        .tm1 ul li span {
+            top: -247px!important;
+        }
+        .tm .row ul:nth-child(2) li {
+            margin: -12px 20px 18px 0;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    body {
+        .tm1 ul li span {
+            top: -308px;
+        }
+    }
+}
+
+.tm {
+    .tn1 {
+        width: 100%;
+        height: 5px;
+        background-color: @nau;
+        position: relative;
+        top: -3px;
+    }
+    height: 60px;
+    width: 100%;
+    background-color: @vang;
+    .row {
+        ul {
+            li {
+                &:nth-child(1) {
+                    float: left;
+                    margin-right: 20px;
+                    a {
+                        &:hover {
+                            text-decoration: none;
+                        }
+                        &:focus,
+                        &:active {
+                            text-decoration: none;
+                        }
+                        p {
+                            .fonto(20px);
+                            color: @do;
+                            font-weight: 700;
+                            margin-top: 15px;
+                        }
+                    }
+                }
+                &:nth-child(2) {
+                    .fontb(14px);
+                    padding-top: 20px;
+                }
+            }
+            //            end li
+            &:nth-child(2) {
+                display: inline-block;
+                margin: 26px 0 0;
+                li {
+                    padding: 0;
+                    float: left;
+                    margin: 0 20px 0 0;
+                    .fonto (18px);
+                    color: @cam;
+                    a,
+                    a:focus,
+                    a:active,
+                    a:hover {
+                        text-decoration: none;
+                        color: @cam;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.tm1 {
+    ul {
+        li {
+            height: 260px;
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+            img {
+                width: 100%;
+            }
+            span {
+                .fontr(20px);
+                position: relative;
+                top: -395px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.tm2 {
+    background-color: @do;
+    height: 60px;
+    position: relative;
+    top: -10px;
+    .tn1 {
+        text-align: center;
+        color: @white;
+        .fonto(14px);
+        margin: 7px 0;
+    }
+    .tn2 {
+        width: 100%;
+        height: 33px;
+        .bovien;
+        border: 2px solid @white;
+        margin-top: 12px;
+        a {
+            text-align: center;
+            display: block;
+            padding-top: 4px;
+            &,
+            &:hover,
+            &:focus,
+            &:active {
+                color: @white;
+                text-decoration: none;
+                .fonto(14px);
+            }
+        }
+    }
+}
+
+.tm3 {
+    .tn1 {
+        .fontr(20px);
+        margin-top: 15px;
+    }
+    .tn2 {
+        ul {
+            margin: 15px 0 30px;
+            li {
+                width: 100%;
+                &:nth-child(1) {
+                    img {
+                        width: 100%;
+                    }
+                }
+                &:nth-child(2) {
+                    text-align: center;
+                    .fonto(16px);
+                    margin-top: 15px;
+                }
+                &:nth-child(3) {
+                    .fontb(16px);
+                    text-align: center;
+                    color: @do;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+.tm4 {
+    background-color: @xam;
+    .tn1 {
+        height: 198px;
+        width: 100%;
+        position: relative;
+        background-color: @vang;
+        margin: 30px 0 30px;
+        .bovien;
+        img {}
+        .tn2 {
+            position: absolute;
+            bottom: 0;
+            height: 41px;
+            width: 100%;
+            background-color: @white;
+            .bovien;
+            p {
+                .fontb(16px);
+                color: @den;
+                text-align: center;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+body {
+    .op2 {
+        .dropdown-menu {
+            top: 32px;
+        }
+    }
+}
+
+.tm5 {
+    height: 2px;
+    width: 100%;
+    background-color: @cam;
+}
+
+.tm6 {
+    p {
+        .fontr(20px);
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+
+.tm7 {
+    a {
+        background-color: @white;
+        color: @do;
+        padding: 2px 15px;
+        margin: 5px 7px 0;
+    }
+    margin-bottom: 60px;
+}
+
+.tm8 {
+    background-color: @do;
+    padding-bottom: 25px;
+    .tn1 {
+        img {
+            height: 105px;
+            display: inline-block;
+            margin-top: 30px;
+        }
+        span {
+            .fontr(20px);
+            color: @vang;
+            display: block;
+        }
+        p {
+            .fonto(14px);
+            color: @white;
+        }
+    }
+    .tn2 {
+        float: left;
+        margin: 30px 60px 0 0;
+        .tn3 {
+            &:nth-child(1) {
+                .fonto(14px);
+                color: @white;
+                text-transform: uppercase;
+            }
+            &:nth-child(2),
+            &:nth-child(3),
+            &:nth-child(4),
+            &:nth-child(2n),
+            &:nth-child(2n+1) {
+                a {
+                    text-decoration: none;
+                    .fonto(14px);
+                    color: @white;
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        text-decoration: none;
+                        color: @white;
+                    }
+                }
+            }
+        }
+    }
+}
