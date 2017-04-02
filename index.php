@@ -11,50 +11,27 @@
             </div>
         </div>
         <div class="row">
+            <?php 
+              global $post;
+              $args = array('numberposts'=>4,'category'=>4,);
+              $custom_posts = get_posts ($args);
+              foreach($custom_posts as $post) : setup_postdata($post); ?>
+
             <div class="col-lg-3 col-md-3 col-xs-6">
                 <div class="tn2">
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li>21$</li>
+                        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                        <li><?php the_excerpt(); ?></li>
                     </ul>
 
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-xs-6">
-                <div class="tn2">
 
-                    <ul>
-                        <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li>21$</li>
-                    </ul>
+            <?php endforeach; wp_reset_postdata(); ?>
 
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-xs-6">
-                <div class="tn2">
 
-                    <ul>
-                        <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li>21$</li>
-                    </ul>
-
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-xs-6">
-                <div class="tn2">
-
-                    <ul>
-                        <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li>21$</li>
-                    </ul>
-
-                </div>
-            </div>
 
         </div>
     </div>
@@ -110,50 +87,26 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-xs-6">
+          <?php 
+          global $post;
+          $args = array('numberposts'=>4,'category'=>5);
+          $custom_posts = get_posts ($args);
+          foreach($custom_posts as $post) : setup_postdata($post); ?>
+          <div class="col-lg-3 col-md-3 col-xs-6">
                 <div class="tn2">
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li>21$</li>
+                        <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                        <li><?php the_excerpt(); ?></li>
                     </ul>
 
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-xs-6">
-                <div class="tn2">
 
-                    <ul>
-                        <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li>21$</li>
-                    </ul>
-
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-xs-6">
-                <div class="tn2">
-
-                    <ul>
-                        <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li>21$</li>
-                    </ul>
-
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-xs-6">
-                <div class="tn2">
-
-                    <ul>
-                        <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-                        <li>21$</li>
-                    </ul>
-
-                </div>
-            </div>
+          <?php endforeach; wp_reset_postdata();?> 
+           
+            
 
         </div>
     </div>
