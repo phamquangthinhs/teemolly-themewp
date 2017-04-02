@@ -53,11 +53,34 @@ h1 {
 
 @media (max-width: 991px) {
     body {
+        .tm4 .tn3 {
+            margin-bottom: 15px;
+            &:nth-child(n+2) {
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            &:nth-child(3){
+                margin-bottom: 30px;
+            }
+            
+        }
+        .tm11 .tn2,
+        .tm12 .tn2 {
+            &:nth-child(n+2) {
+                margin-top: 30px;
+            }
+        }
         .tm1 ul li span {
             top: -247px!important;
         }
         .tm .row ul:nth-child(2) li {
             margin: -12px 20px 18px 0;
+        }
+        .tm4 .tn1 {
+            img {
+                width: 20%;
+                padding-top: 20px!important;
+            }
         }
     }
 }
@@ -66,6 +89,9 @@ h1 {
     body {
         .tm1 ul li span {
             top: -308px;
+        }
+        .tm4 .tn1 img {
+            padding-top: 35px;
         }
     }
 }
@@ -193,6 +219,14 @@ h1 {
         ul {
             margin: 15px 0 30px;
             li {
+                a {
+                    text-decoration: none;
+                    color: @den;
+                    &:focus, &:hover {
+                        text-decoration: none;
+                        color: @den;
+                    }
+                }
                 width: 100%;
                 &:nth-child(1) {
                     img {
@@ -217,14 +251,22 @@ h1 {
 
 .tm4 {
     background-color: @xam;
+    .tn3 {
+        margin-top: 30px ;
+        margin-bottom: 30px;
+    }
     .tn1 {
         height: 198px;
         width: 100%;
         position: relative;
         background-color: @vang;
-        margin: 30px 0 30px;
         .bovien;
-        img {}
+        img {
+            width: 30%;
+            margin: auto;
+            display: block;
+            padding-top: 23px;
+        }
         .tn2 {
             position: absolute;
             bottom: 0;
@@ -302,6 +344,9 @@ body {
                 color: @white;
                 text-transform: uppercase;
             }
+            &:nth-child(2) {
+                margin-top: 10px;
+            }
             &:nth-child(2),
             &:nth-child(3),
             &:nth-child(4),
@@ -319,6 +364,128 @@ body {
                     }
                 }
             }
+        }
+    }
+}
+
+.tm9 {
+    span {
+        color: @white;
+    }
+}
+
+.tm10 {
+    .tn.tn3 {
+        margin-top: 30px;
+        height: 262px;
+    }
+    .tn {
+        width: 100%;
+        height: 330px;
+        overflow: hidden;
+        position: relative;
+        margin-top: 20px;
+        .tn1 {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            img {
+                width: 100%;
+                min-height: 330px;
+            }
+        }
+        .tn2 {
+            position: absolute;
+            bottom: 30px;
+            padding: 0 30px;
+            ul {
+                li {
+                    a,
+                    &:focus {
+                        text-decoration: none;
+                        color: @den;
+                        &:hover {
+                            color: @do;
+                        }
+                    }
+                    &:nth-child(1) {
+                        .fontr(14px);
+                        text-transform: uppercase;
+                        text-align: justify;
+                    }
+                    &:nth-child(2) {
+                        .fontb(14px);
+                        color: @do;
+                        text-transform: uppercase;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .tn4 {
+        margin-top: 20px;
+        position: initial!important;
+        padding: 0!important;
+        .tm10.tn.tn2;
+        ul {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.tm11 {
+    background-color: @xam;
+    margin: 30px 0 0;
+    padding: 30px 0 30px;
+    .tn {
+        width: 100%;
+        height: 220px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            min-height: 100%;
+        }
+        &:nth-child(n+2) {
+            margin-top: 30px;
+        }
+    }
+    .tn1 {
+        ul {
+            li {
+                a,
+                &:focus {
+                    text-decoration: none;
+                    color: @do;
+                    &:hover {
+                        color: @vang;
+                    }
+                }
+                &:nth-child(1) {
+                    .fontr(14px);
+                    text-transform: uppercase;
+                }
+                &:nth-child(2) {}
+            }
+        }
+    }
+    .tn2 {
+        &:nth-child(n+3) {
+            margin-top: 30px;
+        }
+    }
+}
+
+.tm12 {
+    background-color: @white;
+    padding: 30px 0 30px;
+    .tn1 {
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            min-height: 100%;
         }
     }
 }

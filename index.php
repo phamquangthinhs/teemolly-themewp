@@ -16,7 +16,7 @@
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li>21$</li>
                     </ul>
 
@@ -27,7 +27,7 @@
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li>21$</li>
                     </ul>
 
@@ -38,7 +38,7 @@
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li>21$</li>
                     </ul>
 
@@ -49,7 +49,7 @@
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li>21$</li>
                     </ul>
 
@@ -63,10 +63,10 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
                 <a href="#.">
                     <div class="tn1">
-                        <img src="" alt="">
+                        <img src="<?php echo bloginfo('template_directory'); ?>/img/4.png" alt="">
                         <div class="tn2">
                             <p>Fishing</p>
                         </div>
@@ -74,10 +74,10 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
                 <a href="#.">
                     <div class="tn1">
-                        <img src="" alt="">
+                        <img src="<?php echo bloginfo('template_directory'); ?>/img/2.png" alt="">
                         <div class="tn2">
                             <p>Jobs</p>
                         </div>
@@ -85,10 +85,10 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
                 <a href="#.">
                     <div class="tn1">
-                        <img src="" alt="">
+                        <img src="<?php echo bloginfo('template_directory'); ?>/img/3.png" alt="">
                         <div class="tn2">
                             <p>Gym</p>
                         </div>
@@ -115,7 +115,7 @@
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li>21$</li>
                     </ul>
 
@@ -126,7 +126,7 @@
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li>21$</li>
                     </ul>
 
@@ -137,7 +137,7 @@
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li>21$</li>
                     </ul>
 
@@ -148,7 +148,7 @@
 
                     <ul>
                         <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><a href="#.">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
                         <li>21$</li>
                     </ul>
 
@@ -162,10 +162,10 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
                 <a href="#.">
                     <div class="tn1">
-                        <img src="" alt="">
+                        <img src="<?php echo bloginfo('template_directory'); ?>/img/5.png" alt="">
                         <div class="tn2">
                             <p>Family</p>
                         </div>
@@ -173,10 +173,10 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
                 <a href="#.">
                     <div class="tn1">
-                        <img src="" alt="">
+                        <img src="<?php echo bloginfo('template_directory'); ?>/img/6.png" alt="">
                         <div class="tn2">
                             <p>Yoga</p>
                         </div>
@@ -184,10 +184,10 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1">
+            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
                 <a href="#.">
                     <div class="tn1">
-                        <img src="" alt="">
+                        <img src="<?php echo bloginfo('template_directory'); ?>/img/7.png" alt="">
                         <div class="tn2">
                             <p>Pets</p>
                         </div>

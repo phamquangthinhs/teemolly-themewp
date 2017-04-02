@@ -5,7 +5,9 @@
                 <div class="tn1">
                     <a href="http://fb.com/tee.molly79" target="_blank"><img src="<?php echo bloginfo('template_directory'); ?>/img/3.jpg" alt=""></a>
                     <span>Teemolly</span>
-                    <a href="http://fb.com/vip.phamquangthinh"><p>@2017 Vip.phamquangthinh</p></a>
+                    <a href="http://fb.com/vip.phamquangthinh">
+                        <p>@2017 Vip.phamquangthinh</p>
+                    </a>
                 </div>
             </div>
             <div class="tn2">
