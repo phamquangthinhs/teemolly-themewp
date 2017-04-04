@@ -4,4 +4,10 @@ Single Post Template: T-shirt
 infor: Theme for post t-shirt
 */
 ?>
-<h1>Ahihi do ngoc</h1>
+<?php get_header(); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+<?php the_title(); ?>
+<?php the_content(); ?>
+<?php endwhile; endif; ?>
+
+<?php get_footer(); ?>
