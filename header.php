@@ -50,7 +50,10 @@
             <div class="row">
                 <ul class="col-lg-5 col-md-5 col-xs-6 col-lg-offet-0 col-md-offset-0 col-xs-offset-3">
                     <li>
-                        <a href="#.">
+                        <a href="
+<?php echo esc_url( home_url( '/' ) ); ?>
+
+">
                             <p>Tee Molly</p>
                         </a>
                     </li>
