@@ -36,5 +36,16 @@
         'main_nav' => 'Main Navigation Menu'
      )
      );
-   
+   // Limit charactor
+    function new_excerpt_length($length) {
+    return 1;
+  }
+  add_filter('excerpt_length','new_excerpt_length');
+// Replaces the excerpt "Read More" text by a link
+function new_excerpt_more($more) {
+       global $post;
+	return ' ';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+      
 ?>
