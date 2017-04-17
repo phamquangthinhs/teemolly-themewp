@@ -26,7 +26,7 @@
                 <div class="tn2">
 
                     <ul>
-                        <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
+                        <li><a href="<?php the_permalink(); ?>"><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></a></li>
                         <li>
                             <a href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?>
@@ -52,7 +52,7 @@
         <div class="row">
 
             <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
-                <a href="#.">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=69">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/4.png" alt="">
                         <div class="tn2">

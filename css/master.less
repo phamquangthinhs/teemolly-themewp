@@ -53,6 +53,15 @@ h1 {
 
 @media (max-width: 991px) {
     body {
+        .tm23 ul li span {
+            top: -257px !important;
+        }
+        .tm25 ul li span {
+            top: -226px !important;
+        }
+        .tm26 .tn1 {
+            height: 220px !important;
+        }
         .tm16 {
             height: 250px;
         }
@@ -89,6 +98,14 @@ h1 {
 
 @media (max-width: 1199px) {
     body {
+        body {
+            .tm23 ul li span {
+                top: -323px!important;
+            }
+            .tm26 .tn1 {
+                height: 138px;
+            }
+        }
         .tm1 ul li span {
             top: -308px;
         }
@@ -234,6 +251,7 @@ h1 {
                 &:nth-child(1) {
                     img {
                         width: 100%;
+                        height: inherit;
                     }
                 }
                 &:nth-child(2) {
@@ -653,5 +671,102 @@ body {
     }
     p {
         margin: 0;
+    }
+}
+
+.tm22 {
+    background-color: @xam;
+    .tn1 {
+        ul>li {
+            a {
+                color: @do;
+            }
+        }
+    }
+}
+
+.tm23 {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    span {
+        top: -362px!important;
+        color: @white;
+    }
+    img {
+        width: 100%;
+        min-height: 100%;
+    }
+}
+
+.tm24 {
+    margin-top: 26px;
+}
+
+.tm25 {
+    .tm23;
+    span {
+        top: -228px!important;
+    }
+    img {
+        .tm23;
+    }
+}
+
+.tm26 {
+    background-color: @xam;
+    padding: 30px 0;
+    .tn1 {
+        width: 100%;
+        height: 164px;
+        img {
+            width: 100%;
+            min-height: 100%;
+        }
+    }
+    .tn2 {
+        .fontb(16px);
+        color: @den;
+    }
+}
+
+.tm27 {
+    background-color: @white;
+    margin-bottom: 30px;
+    .tn1 {
+        .fontr(20px);
+        color: @den;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+    .tn2 {
+        .fontb(16px);
+        color: @den;
+        margin-top: 10px;
+        .tn3 {
+            .fontb(18px);
+            color: @do;
+        }
+    }
+    .tn4 {
+        width: 100%;
+        margin-top: 30px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.tm28 {
+    background-color: @xam;
+    .tn1 {
+        .tm27 .tn1;
+    }
+    .tn2 {
+        margin-top: 25px;
+        margin-bottom: 30px;
+        img {
+            margin-right: 30px;
+        }
     }
 }
