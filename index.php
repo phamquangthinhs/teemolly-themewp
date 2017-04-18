@@ -1,11 +1,12 @@
 <?php get_header(); ?>
 <?php include (TEMPLATEPATH . '/inc/banner.php' ); ?>
-    <script>
+<script>
     fbq('track', 'ViewContent', {
-    content_type: 'Home',
-    content_name: 'View at the top'
+        content_type: 'Home',
+        content_name: 'View at the top'
     });
-    </script>
+
+</script>
 <div class="tm3">
     <div class="container">
         <div class="row">
@@ -26,7 +27,12 @@
                 <div class="tn2">
 
                     <ul>
-                        <li><a href="<?php the_permalink(); ?>"><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></a></li>
+                        <li>
+                            <a href="<?php the_permalink(); ?>">
+                                <?php the_post_thumbnail(); ?>
+                            </a>
+                        </li>
+
                         <li>
                             <a href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?>
@@ -107,7 +113,11 @@
                 <div class="tn2">
 
                     <ul>
-                        <li><img src="<?php echo bloginfo('template_directory'); ?>/img/1.png" alt=""></li>
+                        <li>
+                            <a href="<?php the_permalink(); ?>">
+                                <?php the_post_thumbnail(); ?>
+                            </a>
+                        </li>
                         <li>
                             <a href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?>

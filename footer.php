@@ -12,8 +12,8 @@
             </div>
             <div class="tn2">
                 <div class="tn3">COMPANY</div>
-                <div class="tn3"><a href="#.">How it works</a></div>
-                <div class="tn3"><a href="#.">About us</a></div>
+                <div class="tn3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=16" target="_blank">How it works</a></div>
+                <div class="tn3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=16" target="_blank">About us</a></div>
                 <div class="tn3"><a href="#.">Contact</a></div>
             </div>
 
@@ -25,8 +25,8 @@
 
             <div class="tn2">
                 <div class="tn3">CONNECT</div>
-                <div class="tn3"><a href="#.">Twitter</a></div>
-                <div class="tn3"><a href="#.">Facebook</a></div>
+                <div class="tn3"><a href="https://twitter.com/teemollyus" target="_blank">Twitter</a></div>
+                <div class="tn3"><a href="http://fb.com/tee.molly79" target="_blank">Facebook</a></div>
             </div>
         </div>
     </div>
