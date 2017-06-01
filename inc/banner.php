@@ -22,7 +22,7 @@
             </div>
             <div class="col-lg-2 col-md-2 col-xs-3 col-lg-offset-1 col-md-offset-1 col-xs-offset-1">
                 <div class="tn2">
-                    <a href="#.">Sent Quotes</a>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/?page_id=14">Sent Quotes</a>
                 </div>
             </div>
         </div>

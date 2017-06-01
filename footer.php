@@ -14,12 +14,12 @@
                 <div class="tn3">COMPANY</div>
                 <div class="tn3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=16" target="_blank">How it works</a></div>
                 <div class="tn3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=16" target="_blank">About us</a></div>
-                <div class="tn3"><a href="#.">Contact</a></div>
+                <div class="tn3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=12">Contact</a></div>
             </div>
 
             <div class="tn2">
                 <div class="tn3">SUPPORT</div>
-                <div class="tn3"><a href="#.">FAQ</a></div>
+                <div class="tn3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=105">FAQ</a></div>
                 <div class="tn3"><a href="#.">Our promise</a></div>
             </div>
 
