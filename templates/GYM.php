@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Fishing niche
+ Template Name: GYM niche
  */
  ?>
     <?php get_header(); ?>
@@ -10,8 +10,8 @@
                 <div class="col-lg-12 col-md-12 col-xs-12">
                     <div class="tn1">
                         <ul>
+                            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=69">Fishing</a></li>
                             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=107">Jobs</a></li>
-                            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=113">Gym </a></li>
                             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=115">Family</a></li>
                             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=119">Yoga</a></li>
                             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=123">Pets</a></li>
@@ -30,7 +30,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-xs-12">
-                            <span>Fishing</span>
+                            <span>Gym</span>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
             <div class="row">
                 <?php 
               global $post;
-              $args = array('numberposts'=>4,'category'=>18,);
+              $args = array('numberposts'=>4,'category'=>22,);
               $custom_posts = get_posts ($args);
               foreach($custom_posts as $post) : setup_postdata($post); ?>
 

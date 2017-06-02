@@ -69,7 +69,7 @@
             </div>
 
             <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
-                <a href="#.">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=107">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/2.png" alt="">
                         <div class="tn2">
@@ -80,7 +80,7 @@
             </div>
 
             <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
-                <a href="#.">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=113">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/3.png" alt="">
                         <div class="tn2">
@@ -143,7 +143,7 @@
         <div class="row">
 
             <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
-                <a href="#.">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=115">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/5.png" alt="">
                         <div class="tn2">
@@ -154,7 +154,7 @@
             </div>
 
             <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
-                <a href="#.">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=119">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/6.png" alt="">
                         <div class="tn2">
@@ -165,7 +165,7 @@
             </div>
 
             <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
-                <a href="#.">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=123">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/7.png" alt="">
                         <div class="tn2">
