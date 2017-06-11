@@ -1,6 +1,9 @@
 <?php get_header(); ?>
-
-		<?php if (have_posts()) : ?>
+ <div class="container">
+     <div class="row">
+         <div class="col-lg-12 col-md-12 col-xs-12">
+           <div class="tm34">
+                 <?php if (have_posts()) : ?>
 
  			<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 
@@ -53,6 +56,7 @@
 
 	<?php endif; ?>
 
-<?php get_sidebar(); ?>
-
-<?php get_footer(); ?>
+         </div>
+           </div>
+     </div>
+ </div>

@@ -1,29 +1,37 @@
 <?php get_header(); ?>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			
-		<div class="post" id="post-<?php the_ID(); ?>">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="tm34">
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<h2><?php the_title(); ?></h2>
+                <div class="post" id="post-<?php the_ID(); ?>">
 
-			<?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
+                    
+                    <div class="tn1">
+                        <?php the_title(); ?>
+                    </div>
+                    
 
-			<div class="entry">
+                    <?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
 
-				<?php the_content(); ?>
+                    <div class="entry">
 
-				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
+                        <?php the_content(); ?>
 
-			</div>
+                        <?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
 
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+                    </div>
 
-		</div>
-		
-		<?php // comments_template(); ?>
+                    <?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 
-		<?php endwhile; endif; ?>
+                </div>
 
-<?php get_sidebar(); ?>
+                <?php // comments_template(); ?>
 
-<?php get_footer(); ?>
+                <?php endwhile; endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
