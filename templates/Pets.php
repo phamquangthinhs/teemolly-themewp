@@ -42,7 +42,7 @@
             <div class="row">
                 <?php 
               global $post;
-              $args = array('numberposts'=>4,'category'=>25,);
+              $args = array('numberposts'=>12,'category'=>25,);
               $custom_posts = get_posts ($args);
               foreach($custom_posts as $post) : setup_postdata($post); ?>
 
@@ -72,5 +72,7 @@
             </div>
         </div>
     </div>
+    
+    <?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
 
     <?php get_footer(); ?>
