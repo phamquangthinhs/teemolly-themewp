@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-3 col-xs-4">
                 <div class="tn1">
-                    <a href="http://fb.com/tee.molly79" target="_blank"><img src="<?php echo bloginfo('template_directory'); ?>/img/3.jpg" alt=""></a>
+                    <a href="http://fb.com/tee.molly79" target="_blank"><img src="<?php echo bloginfo('template_directory'); ?>/img/logo.jpg" alt=""></a>
                     <span>Teemolly</span>
                     <a href="http://fb.com/vip.phamquangthinh">
                         <p>@2017 Vip.phamquangthinh</p>

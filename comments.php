@@ -44,7 +44,7 @@
 
 <div id="respond">
 
-	<h2><?php comment_form_title( 'Leave a Reply', 'Leave a Reply to %s' ); ?></h2>
+	<h2 class="tm37"><?php comment_form_title( 'Leave a Reply', 'Leave a Reply to %s' ); ?></h2>
 
 	<div class="cancel-comment-reply">
 		<?php cancel_comment_reply_link(); ?>
@@ -86,8 +86,9 @@
 		</div>
 
 		<div>
-			<input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+			<input class="tm36" name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
 			<?php comment_id_fields(); ?>
+			<div class="tm35"></div>
 		</div>
 		
 		<?php do_action('comment_form', $post->ID); ?>
