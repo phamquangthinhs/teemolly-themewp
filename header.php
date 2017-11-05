@@ -3,6 +3,9 @@
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>" />
+    
+     <meta property="fb:app_id" content="1514019788687847" />
+     <meta property="fb:admins" content="100001910866760"/>
 
     <?php if (is_search()) { ?>
     <meta name="robots" content="noindex, nofollow" />
@@ -99,6 +102,15 @@
     </script>
 
 </head>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1514019788687847';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <body <?php body_class(); ?>>
 
