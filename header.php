@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>" />
-    
+     
+     <meta property="fb:pages" content="947961191975824" />
      <meta property="fb:app_id" content="1514019788687847" />
      <meta property="fb:admins" content="100001910866760"/>
 
