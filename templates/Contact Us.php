@@ -17,13 +17,13 @@
         
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                         <div class="tn1">
                             Contact Us
                         </div>
                         <div class="tn2">
                             <ul>
-                                <li>46 Trung Kinh, Trung Hoa, Cau Giay, Ha Noi, Viet Nam</li>
+                                <li>58 Nguyen Khanh Toan, Cau Giay, Ha Noi, Viet Nam</li>
                                 <li>Vip.phamquangthinh@gmail.com</li>
                                 <li>(+84) 0964 133 556</li>
                             </ul>

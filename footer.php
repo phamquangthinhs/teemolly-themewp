@@ -1,7 +1,7 @@
 <div class="tm8">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-xs-4">
+            <div class="col-lg-3 col-md-3 col-sm-4">
                 <div class="tn1">
                     <a href="http://fb.com/tee.molly79" target="_blank"><img src="<?php echo bloginfo('template_directory'); ?>/img/logo.jpg" alt=""></a>
                     <span>Teemolly</span>

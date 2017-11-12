@@ -50,9 +50,38 @@ h1 {
     font-family: rock;
     font-size: @px;
 }
-
-@media (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 767px) {
     body {
+        .tm {
+            .tn1 {
+                top: 0;
+                margin: 20px 0 0;
+                
+            }
+            height: inherit;
+            .container .row ul li:nth-child(2) {
+            display: block;
+            }
+            .row{
+                ul {
+                    display: inherit;
+                    &:nth-child(3) {
+                        margin: 0 0 0 20px;
+                    }
+                }
+            }
+        }
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        .tm .row ul li:nth-child(2) {
+            display: none;
+        }
+        .tm .row ul:nth-child(3) {
+            margin: 20px 0 0;
+        }
         .tm30 .tn4 {
             margin-top: 30px;
         }
@@ -69,6 +98,7 @@ h1 {
             height: 250px;
         }
         .tm4 .tn3 {
+            margin-top: 15px;
             margin-bottom: 15px;
             &:nth-child(n+2) {
                 margin-top: 15px;
@@ -92,14 +122,14 @@ h1 {
         }
         .tm4 .tn1 {
             img {
-                width: 20%;
+                width: 50%;
                 padding-top: 20px!important;
             }
         }
     }
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     body {
         body {
             .tm23 ul li span {
@@ -131,6 +161,7 @@ h1 {
     background-color: @vang;
     .row {
         ul {
+            margin-bottom: 0;
             li {
                 &:nth-child(1) {
                     float: left;
@@ -157,7 +188,7 @@ h1 {
                 }
             }
             //            end li
-            &:nth-child(2) {
+            &:nth-child(3) {
                 display: inline-block;
                 margin: 26px 0 0;
                 li {
@@ -181,6 +212,7 @@ h1 {
 
 .tm1 {
     ul {
+        margin-bottom: 0;
         li {
             height: 260px;
             overflow: hidden;
@@ -202,8 +234,8 @@ h1 {
 .tm2 {
     background-color: @do;
     height: 60px;
-    position: relative;
-    top: -10px;
+//    position: relative;
+//    top: -10px;
     .tn1 {
         text-align: center;
         color: @white;
@@ -211,11 +243,11 @@ h1 {
         margin: 7px 0;
     }
     .tn2 {
-        width: 100%;
         height: 33px;
         .bovien;
-        border: 2px solid @white;
+        border: 1px solid @white;
         margin-top: 12px;
+        padding: 0 30px;
         a {
             text-align: center;
             display: block;
@@ -348,7 +380,8 @@ body {
         img {
             height: 105px;
             display: inline-block;
-            margin-top: 30px;
+            margin: 30px 0;
+            .bovien;
         }
         span {
             .fontr(20px);
@@ -860,6 +893,7 @@ body {
 }
 
 .tm33 {
+    margin-top: 50px; 
     .tn1 {
         .fontr(20px);
         color: @do;

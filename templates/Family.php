@@ -7,7 +7,7 @@
     <div class="tm13 tm22">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="tn1">
                         <ul>
                             <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=69">Fishing</a></li>
@@ -29,7 +29,7 @@
                 <img src="<?php echo bloginfo('template_directory'); ?>/img/7.jpg" alt="">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
                             <span>Family</span>
                         </div>
                     </div>
@@ -46,7 +46,7 @@
               $custom_posts = get_posts ($args);
               foreach($custom_posts as $post) : setup_postdata($post); ?>
 
-                <div class="col-lg-3 col-md-3 col-xs-6">
+                <div class="col-lg-3 col-md-3 col-sm-6">
                     <div class="tn2">
 
                         <ul>

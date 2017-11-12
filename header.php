@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>" />
-     
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!--[if lt IE 9]>
+	 <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+     <![endif]-->
      <meta property="fb:pages" content="947961191975824" />
      <meta property="fb:app_id" content="1514019788687847" />
      <meta property="fb:admins" content="100001910866760"/>
@@ -117,8 +120,8 @@
 
     <div class="tm">
         <div class="container">
-            <div class="row">
-                <ul class="col-lg-5 col-md-5 col-xs-6 col-lg-offet-0 col-md-offset-0 col-xs-offset-3">
+            <div class="row justify-content-sm-center">
+                <ul class="col-xl-5 col-lg-5 col-md-5 col-sm-auto">
                     <li>
                         <a href="
 <?php echo esc_url( home_url( '/' ) ); ?>
@@ -131,7 +134,8 @@
                         <p>Beautiful designs & Addictive ***</p>
                     </li>
                 </ul>
-                <ul class="col-lg-4 col-md-5 col-xs-9 col-lg-offet-0 col-md-offset-0 col-xs-offset-3 pull-right">
+                <ul class="col-xl col-lg col-md col-sm-0"></ul>
+                <ul class="col-xl-auto col-lg-auto col-md-auto col-sm-auto">
                     <?php wp_nav_menu(array('menu'=>'menu')) ?>
                 </ul>
             </div>

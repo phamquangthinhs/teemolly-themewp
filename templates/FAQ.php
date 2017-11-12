@@ -7,7 +7,7 @@
  <div class="tm31">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-xs-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="tn1">
                         Frequently Asked Questions
                     </div>
@@ -18,7 +18,7 @@
     <div class="tm32">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-7 col-xs-12">
+                <div class="col-lg-7 col-md-7 col-sm-12">
                     <div class="tn1">
                         <ul>
                             <li>1. Who is responsible if your shirt is faulty?</li>

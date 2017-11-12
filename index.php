@@ -10,7 +10,7 @@
 <div class="tm3">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="tn1">
                     Staff Picks
                 </div>
@@ -23,7 +23,7 @@
               $custom_posts = get_posts ($args);
               foreach($custom_posts as $post) : setup_postdata($post); ?>
 
-            <div class="col-lg-3 col-md-3 col-xs-6">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="tn2">
 
                     <ul>
@@ -57,7 +57,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
+            <div class="col-lg-4 col-md-4 col-sm-10 col-lg-offet-0 col-md-offset-0 col-sm-offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=69">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/4.png" alt="">
@@ -68,7 +68,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
+            <div class="col-lg-4 col-md-4 col-sm-10 col-lg-offet-0 col-md-offset-0 col-sm-offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=107">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/2.png" alt="">
@@ -79,7 +79,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
+            <div class="col-lg-4 col-md-4 col-sm-10 col-lg-offet-0 col-md-offset-0 col-sm-offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=113">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/3.png" alt="">
@@ -97,7 +97,7 @@
 <div class="tm3">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 col-md-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="tn1">
                     Sports
                 </div>
@@ -109,7 +109,7 @@
           $args = array('numberposts'=>4,'category'=>5);
           $custom_posts = get_posts ($args);
           foreach($custom_posts as $post) : setup_postdata($post); ?>
-            <div class="col-lg-3 col-md-3 col-xs-6">
+            <div class="col-lg-3 col-md-3 col-sm-6">
                 <div class="tn2">
 
                     <ul>
@@ -142,7 +142,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
+            <div class="col-lg-4 col-md-4 col-sm-10 col-lg-offet-0 col-md-offset-0 col-sm-offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=115">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/5.png" alt="">
@@ -153,7 +153,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
+            <div class="col-lg-4 col-md-4 col-sm-10 col-lg-offet-0 col-md-offset-0 col-sm-offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=119">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/6.png" alt="">
@@ -164,7 +164,7 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-xs-10 col-lg-offet-0 col-md-offset-0 col-xs-offset-1 tn3">
+            <div class="col-lg-4 col-md-4 col-sm-10 col-lg-offet-0 col-md-offset-0 col-sm-offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=123">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/7.png" alt="">
@@ -174,7 +174,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-12 col-md-12 col-xs-10 col-lg-offset-0 col-md-offset-0 col-xs-offset-1">
+            <div class="col-lg-12 col-md-12 col-sm-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1">
                 <div class="tm5">
 
                 </div>
@@ -182,7 +182,7 @@
                     <p>Browse Popular Categories</p>
                 </div>
             </div>
-            <div class="col-lg-10 col-md-10 col-xs-10 col-lg-offset-1 col-md-offset-1 col-xs-offset-1">
+            <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                 <div class="tm7">
                     <a>
                         <?php the_tags(); ?>
