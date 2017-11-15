@@ -40,6 +40,9 @@ h1 {
 .bovien {
     border-radius: 6px;
 }
+.muhi {
+    background-color: @do;
+}
 
 .fontb(@px) {
     font-family: roboto;
@@ -50,19 +53,53 @@ h1 {
     font-family: rock;
     font-size: @px;
 }
+
+@media (max-width: 575px) {
+    body {
+        .tm {
+            .row {
+                ul {
+                    &:nth-child(3) {
+                        margin: 10px 0 0;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
     body {
+        .tm1 {
+            ul {
+                li {
+                    span {
+                        top: -195px;
+                    }
+                }
+            }
+        }
+        .tm2 {
+            .tn2 {
+                height: 40px;
+                a {
+                    text-transform: uppercase;
+                    font-size: 20px;
+                }
+            }
+        }
         .tm {
             .tn1 {
                 top: 0;
                 margin: 20px 0 0;
-                
+
             }
             height: inherit;
             .container .row ul li:nth-child(2) {
-            display: block;
+                display: block;
             }
-            .row{
+            .row {
                 ul {
                     display: inherit;
                     &:nth-child(3) {
@@ -71,7 +108,7 @@ h1 {
                 }
             }
         }
- }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -151,17 +188,16 @@ h1 {
 .tm {
     .tn1 {
         width: 100%;
-        height: 5px;
+        height: 3px;
         background-color: @nau;
         position: relative;
-        top: -3px;
     }
-    height: 60px;
     width: 100%;
     background-color: @vang;
     .row {
         ul {
             margin-bottom: 0;
+            display: inherit;
             li {
                 &:nth-child(1) {
                     float: left;
@@ -186,8 +222,7 @@ h1 {
                     .fontb(14px);
                     padding-top: 20px;
                 }
-            }
-            //            end li
+            } //            end li
             &:nth-child(3) {
                 display: inline-block;
                 margin: 26px 0 0;
@@ -214,7 +249,7 @@ h1 {
     ul {
         margin-bottom: 0;
         li {
-            height: 260px;
+            max-height: 260px;
             overflow: hidden;
             width: 100%;
             position: relative;
@@ -223,7 +258,7 @@ h1 {
             }
             span {
                 .fontr(20px);
-                position: relative;
+                position: absolute;
                 top: -395px;
                 text-transform: uppercase;
             }
@@ -233,9 +268,7 @@ h1 {
 
 .tm2 {
     background-color: @do;
-    height: 60px;
-//    position: relative;
-//    top: -10px;
+    padding-bottom: 15px;
     .tn1 {
         text-align: center;
         color: @white;
@@ -252,6 +285,7 @@ h1 {
             text-align: center;
             display: block;
             padding-top: 4px;
+            text-transform: inherit;
             &,
             &:hover,
             &:focus,
@@ -713,7 +747,7 @@ body {
 .tm22 {
     background-color: @xam;
     .tn1 {
-        ul>li {
+        ul > li {
             a {
                 color: @do;
             }
@@ -893,7 +927,7 @@ body {
 }
 
 .tm33 {
-    margin-top: 50px; 
+    margin-top: 50px;
     .tn1 {
         .fontr(20px);
         color: @do;
@@ -915,5 +949,5 @@ body {
         color: @den;
         text-transform: uppercase;
     }
-    
+
 }

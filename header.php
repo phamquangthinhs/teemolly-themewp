@@ -120,8 +120,8 @@
 
     <div class="tm">
         <div class="container">
-            <div class="row justify-content-sm-center">
-                <ul class="col-xl-5 col-lg-5 col-md-5 col-sm-auto">
+            <div class="row justify-content-sm-center justify-content-center">
+                <ul class="col-xl-5 col-lg-5 col-md-5 col-sm-auto col-auto">
                     <li>
                         <a href="
 <?php echo esc_url( home_url( '/' ) ); ?>
@@ -134,8 +134,8 @@
                         <p>Beautiful designs & Addictive ***</p>
                     </li>
                 </ul>
-                <ul class="col-xl col-lg col-md col-sm-0"></ul>
-                <ul class="col-xl-auto col-lg-auto col-md-auto col-sm-auto">
+                <ul class="col-xl col-lg col-md col-sm-auto col-auto"></ul>
+                <ul class="col-xl-auto col-lg-auto col-md-auto col-sm-auto col-auto">
                     <?php wp_nav_menu(array('menu'=>'menu')) ?>
                 </ul>
             </div>
