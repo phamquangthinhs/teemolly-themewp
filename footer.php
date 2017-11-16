@@ -1,7 +1,7 @@
 <div class="tm8">
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="col-md-3 col-sm-4">
                 <div class="tn1">
                     <a href="http://fb.com/tee.molly79" target="_blank"><img src="<?php echo bloginfo('template_directory'); ?>/img/logo.jpg" alt=""></a>
                     <span>Teemolly</span>
@@ -10,7 +10,7 @@
                     </a>
                 </div>
             </div>
-            <div class="tn2">
+            <div class="tn2 tn4">
                 <div class="tn3">COMPANY</div>
                 <div class="tn3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=16" target="_blank">How it works</a></div>
                 <div class="tn3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=16" target="_blank">About us</a></div>
