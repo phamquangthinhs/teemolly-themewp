@@ -57,7 +57,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-4 col-sm-10 offset-md-0 offset-sm-1 tn3">
+            <div class="col-md-4 col-10 offset-md-0 offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=69">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/4.png" alt="">
@@ -68,7 +68,7 @@
                 </a>
             </div>
 
-            <div class="col-md-4 col-sm-10 offset-md-0 offset-sm-1 tn3">
+            <div class="col-md-4 col-10 offset-md-0 offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=107">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/2.png" alt="">
@@ -79,7 +79,7 @@
                 </a>
             </div>
 
-            <div class="col-md-4 col-sm-10 offset-md-0 offset-sm-1 tn3">
+            <div class="col-md-4 col-10 offset-md-0 offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=113">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/3.png" alt="">
@@ -142,7 +142,7 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-md-4 col-sm-10 offset-md-0 offset-sm-1 tn3">
+            <div class="col-md-4 col-10 offset-md-0 offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=115">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/5.png" alt="">
@@ -153,7 +153,7 @@
                 </a>
             </div>
 
-            <div class="col-md-4 col-sm-10 offset-md-0 offset-sm-1 tn3">
+            <div class="col-md-4 col-10 offset-md-0 offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=119">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/6.png" alt="">
@@ -164,7 +164,7 @@
                 </a>
             </div>
 
-            <div class="col-md-4 col-sm-10 offset-md-0 offset-sm-1 tn3">
+            <div class="col-md-4 col-10 offset-md-0 offset-1 tn3">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>?page_id=123">
                     <div class="tn1">
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/7.png" alt="">
