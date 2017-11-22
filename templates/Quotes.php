@@ -4,7 +4,7 @@
  */
  ?>
     <?php get_header(); ?>
-    <div class="tm1 tm25">
+    <div class="tm25">
         <ul>
             <li>
                 <img src="<?php echo bloginfo('template_directory'); ?>/img/12.jpg" alt="">
@@ -14,14 +14,14 @@
     <div class="tm29">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col-sm-12">
                     <div class="tn1">
                         Top Quotes for t-shirt
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-md-10 col-sm-12 col-lg-offset-2 col-md-offset-1 col-sm-offset-0">
+                <div class="col-lg-8 col-md-10 col-sm-12 offset-lg-2 offset-md-1 offset-sm-0">
                     <div class="tn2">
                         <ul>
             <?php 
@@ -40,14 +40,14 @@
     <div class="tm30">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="col">
                     <div class="tn1">
                         Send us a quotes
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-6 col-md-10 col-sm-12 offset-lg-0 offset-md-1 col-12 offset-sm-0">
                     <div class="tn2">
                         You send us quotes; we will design a shirt based on that quotes. Finally, you will receive a link to buy the shirt through the email you provide us.
                     </div>
@@ -55,7 +55,8 @@
                         <img src="<?php echo bloginfo('template_directory'); ?>/img/13.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-6 col-sm-12 col-lg-offset-1 col-md-offset-0 col-sm-offset-0">
+                <div class="col"></div>
+                <div class="col-lg-5 col-md-auto col-sm-11 col-11">
                  <div class="tn4">
                      <?php the_content(); ?>
                  </div>
