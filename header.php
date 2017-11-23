@@ -106,6 +106,9 @@
     </script>
 
 </head>
+	
+	<link rel =" image_src "href =" http://domain.com/images/logo.gif "/ />
+	
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
