@@ -123,8 +123,8 @@
 
     <div class="tm">
         <div class="container">
-            <div class="row justify-content-sm-center justify-content-center">
-                <ul class="col-md-5 col-sm-auto col-auto">
+            <div class="row justify-content-center">
+                <ul class="col-md-6 col-auto tn3">
                     <li>
                         <a href="
 <?php echo esc_url( home_url( '/' ) ); ?>
@@ -137,8 +137,8 @@
                         <p>Beautiful designs & Addictive ***</p>
                     </li>
                 </ul>
-                <ul class="col-md col-sm-auto col-auto"></ul>
-                <ul class="col-auto">
+                <ul class="col-auto"></ul>
+                <ul class="col-auto tn2">
                     <?php wp_nav_menu(array('menu'=>'menu')) ?>
                 </ul>
             </div>

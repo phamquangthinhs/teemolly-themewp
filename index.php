@@ -23,7 +23,7 @@
               $custom_posts = get_posts ($args);
               foreach($custom_posts as $post) : setup_postdata($post); ?>
 
-            <div class="col-md-3 col-sm-8 offset-md-0 offset-sm-2">
+            <div class="col-md-3 col-sm-6">
                 <div class="tn2">
 
                     <ul>
@@ -109,7 +109,7 @@
           $args = array('numberposts'=>4,'category'=>5);
           $custom_posts = get_posts ($args);
           foreach($custom_posts as $post) : setup_postdata($post); ?>
-            <div class="col-md-3 col-sm-8 offset-md-0 offset-sm-2">
+            <div class="col-md-3 col-sm-6">
                 <div class="tn2">
 
                     <ul>

@@ -30,8 +30,16 @@ infor: Theme for post t-shirt
 
     </script>
     <div class="tm21">
-    <?php the_content(); ?>
+        <?php the_content(); ?>
     </div>
     <?php endwhile; endif; ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-12">
+                <?php comments_template(); ?>
+            </div>
+        </div>
+    </div>
+    <div class="tm37"></div>
 
     <?php get_footer(); ?>

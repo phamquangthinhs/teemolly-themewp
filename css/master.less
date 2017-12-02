@@ -40,6 +40,7 @@ h1 {
 .bovien {
     border-radius: 6px;
 }
+
 .muhi {
     background-color: @do;
 }
@@ -54,18 +55,73 @@ h1 {
     font-size: @px;
 }
 
-@media (max-width: 575px) {
+.tsad {
+    display: inherit;
+    color: @do;
+}
+
+.tsde {
+    display: none;
+    color: @den;
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
     body {
+        input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required , .tm30 .tn4 textarea {
+            width: 280px;
+        }
+        .tm13 {
+            display: none;
+        }
+        .tm {
+            .row {
+                .tn3 {
+                    li {
+                        margin: 0!important;
+                    }
+                }
+                ul {
+                    &:nth-child(3) {
+                        margin: 0 0 10px;
+                    }
+                    li:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .tm8 {
+            .tn2 {
+                &:nth-child(3) {
+                    display: none;
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width: 480px) and (max-width: 575px) {
+    body {
+        .tm13 .tn1 {
+            ul {
+                li {
+                    &:nth-child(8) {
+                        display: none;
+                    }
+                }
+            }
+        }
         .tm8 {
             .tn4 {
-                    display: none;
+                display: none;
             }
         }
         .tm {
             .row {
                 ul {
                     &:nth-child(3) {
-                        margin: 10px 0 0;
+                        margin: 0 0 10px 0;
                     }
                 }
             }
@@ -76,7 +132,7 @@ h1 {
                 margin-top: 20px;
             }
         }
-          .tm2 {
+        .tm2 {
             .tn2 {
                 height: 40px;
                 a {
@@ -92,7 +148,7 @@ h1 {
     body {
         .tm8 {
             .tn4 {
-                    display: none;
+                display: none;
             }
         }
         .tm1 {
@@ -125,14 +181,14 @@ h1 {
 
             }
             height: inherit;
-            .container .row ul li:nth-child(2) {
+            .row ul li {
                 display: block;
             }
             .row {
                 ul {
                     display: inherit;
                     &:nth-child(3) {
-                        margin: 0 0 0 20px;
+                        margin: 0;
                     }
                 }
             }
@@ -142,8 +198,12 @@ h1 {
 
 @media (min-width: 768px) and (max-width: 991px) {
     body {
-        .tm .row ul li:nth-child(2) {
-            display: none;
+        .tm {
+            .tn2 {
+                li:nth-child(2) {
+                    display: none;
+                }
+            }
         }
         .tm .row ul:nth-child(3) {
             margin: 20px 0 0;
@@ -159,9 +219,6 @@ h1 {
         }
         .tm26 .tn1 {
             height: 220px !important;
-        }
-        .tm16 {
-            height: 250px;
         }
         .tm4 .tn3 {
             margin-top: 15px;
@@ -649,80 +706,101 @@ body {
         li {
             float: left;
             margin-right: 10px;
+            .fontr(14px);
+            color: @den;
+            text-transform: uppercase;
             &:after {
                 content: '>';
                 padding: 0 5px 0 10px;
-            }
-            a {
-                .fontr(12px);
-                color: @den;
-                text-transform: uppercase;
             }
         }
     }
 }
 
 .tm15 {
-    .fontr(18px);
+    .fontr(24px);
     color: @den;
     text-transform: uppercase;
     clear: both;
 }
 
 .tm16 {
+    position: relative;
     margin-top: 25px;
-    width: 100%;
-    height: 400px;
     overflow: hidden;
     img {
         width: 100%;
         min-height: 100%;
     }
+    .tn3 {
+        display: table;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        .tn4,
+        .tn5 {
+            width: 69px;
+            float: left;
+        }
+    }
 }
 
 .tm17 {
-    margin-top: 30px;
-    height: 146px;
-    width: 100%;
-    border: 2px solid @do;
+    margin-top: 10px;
     .tn1 {
+        p {
+            .fontr(20px);
+            color: @do;
+        }
+    }
+    .tn2 {
         ul {
-            padding-top: 37px;
             li {
-                width: 100%;
-                .fontr(23px);
-                color: @do;
-                text-align: center;
+                &:nth-child(n) {
+                    .fontr(18px);
+                    text-transform: uppercase;
+                }
+                &:nth-child(2n) {
+                    .fonto(16px);
+                    text-transform: inherit;
+                }
             }
         }
+        .tn3 {
+            display: inline-flex;
+            margin-top: 5px;
+            .tn4 {
+                .tm17 .tn8;
+                background-color: #fcfcfc;
+            }
+            .tn5 {
+                .tm17 .tn8;
+                background-color: #ffe9ba;
+            }
+            .tn6 {
+                .tm17 .tn8;
+                background-color: #ffb2c4;
+            }
+            .tn7 {
+                .tm17 .tn8;
+                background-color: #d6d7d9;
+            }
+        }
+    }
+    .tn8 {
+        width: 23px;
+        height: 23px;
+        border: 1px solid @nau;
+        margin-right: 5px;
     }
 }
 
 .tm18 {
-    width: 100%;
-    height: 146px;
-    background-color: @xam;
     margin-top: 30px;
-    position: relative;
-    .tn1 {
-        width: 86%;
-        margin: auto;
-        text-align: center;
-        padding-top: 14px;
-        p {
-            .fonto(16px);
-            color: @den;
-            a {
-                color: @do;
-            }
-        }
-    }
     .tn2 {
         height: 48px;
         width: 100%;
         background-color: @do;
-        position: absolute;
-        bottom: 0;
         text-align: center;
         a {
             .fonto(18px);
@@ -744,7 +822,7 @@ body {
     .tn2 {
         width: 40%;
         float: left;
-        margin-right: 20%;
+        margin-right: 20px;
         border: 2px solid @do;
         height: 38px;
         text-align: center;
@@ -981,4 +1059,45 @@ body {
         text-transform: uppercase;
     }
 
+}
+
+// new css
+.tm35 {
+    width: 100%;
+    height: 179px;
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+
+.tm36 {
+    .fontr(18px);
+    text-transform: uppercase;
+    ul {
+        display: table;
+        margin: 20px auto 0;
+        .tn3 {
+            a {
+                color: @do;
+            }
+        }
+        li {
+            float: left;
+            margin-right: 7px;
+            a {
+                text-decoration: none;
+                color: @den;
+                &:hover {
+                    color: @do;
+                }
+            }
+        }
+    }
+
+}
+
+.tm37 {
+    width: 100%;
+    height: 50px;
 }
